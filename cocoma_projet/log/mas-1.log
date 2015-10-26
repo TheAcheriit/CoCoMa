@@ -1,0 +1,74 @@
+[EISArtifact_vehicle3] Registering vehicle3 to entity connectionA3
+[EISArtifact_vehicle2] Registering vehicle2 to entity connectionA2
+[EISArtifact_vehicle1] Registering vehicle1 to entity connectionA1
+[vehicle3] Got role: Motorcycle
+[vehicle2] Got role: Drone
+[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle2] drone.asl
+[vehicle1] Got role: Car
+[vehicle3] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle3] motorcycle.asl
+[vehicle1] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle1] car.asl
+[EISArtifact_vehicle4] Registering vehicle4 to entity connectionA4
+[vehicle3] Going to shop: shop2 to buy tool: tool1
+[vehicle3] Doing goto(facility(shop2)) for step 6
+[vehicle4] Got role: Truck
+[vehicle2] Going to shop: shop2 to buy tool: tool1
+[vehicle2] Doing goto(facility(shop2)) for step 6
+[vehicle4] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle4] truck.asl
+[vehicle1] Going to shop: shop2 to buy tool: tool2
+[vehicle1] Doing goto(facility(shop2)) for step 6
+[vehicle3] Doing continue for step 7
+[vehicle2] Doing continue for step 7
+[vehicle1] Doing continue for step 7
+[vehicle4] Going to shop: shop2 to buy tool: tool2
+[vehicle4] Doing goto(facility(shop2)) for step 7
+[vehicle4] Doing continue for step 8
+[vehicle3] Doing continue for step 8
+[vehicle2] Doing continue for step 8
+[vehicle1] Doing continue for step 8
+[vehicle2] Doing continue for step 9
+[vehicle1] Doing continue for step 9
+[vehicle3] Doing continue for step 9
+[vehicle4] Doing continue for step 9
+[vehicle1] Doing continue for step 10
+[vehicle3] Doing continue for step 10
+[vehicle2] Doing continue for step 10
+[vehicle4] Doing continue for step 10
+[vehicle1] Doing continue for step 11
+[vehicle2] Doing continue for step 11
+[vehicle3] Doing continue for step 11
+[vehicle4] Doing continue for step 11
+[vehicle1] Doing continue for step 12
+[vehicle3] Doing continue for step 12
+[vehicle2] Doing continue for step 12
+[vehicle4] Doing continue for step 12
+[vehicle1] Doing continue for step 13
+[vehicle3] Doing continue for step 13
+[vehicle2] Doing continue for step 13
+[vehicle4] Doing continue for step 13
+[vehicle1] Doing continue for step 14
+[vehicle3] Doing continue for step 14
+[vehicle2] Doing continue for step 14
+[vehicle4] Doing continue for step 14
+[vehicle1] Doing continue for step 15
+[vehicle3] Doing continue for step 15
+[vehicle2] Doing continue for step 15
+[vehicle4] Doing continue for step 15
+[vehicle3] Doing continue for step 16
+[vehicle1] Doing continue for step 16
+[vehicle2] Doing continue for step 16
+[vehicle4] Start new reasoning cycle
+[vehicle4] Added event +step(16)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc29_43"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(16)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc29_43"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle4] I finished!
+[vehicle2] Start new reasoning cycle
+[vehicle2] Added event +step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc27_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc27_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle2] I finished!
+[vehicle3] Start new reasoning cycle
+[vehicle3] Added event +step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc26_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc26_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle3] I finished!
+[vehicle1] Start new reasoning cycle
+[vehicle1] Added event +step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc28_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc28_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle1] I finished!

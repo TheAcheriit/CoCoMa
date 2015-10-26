@@ -1,0 +1,90 @@
+[EISArtifact_vehicle4] Registering vehicle4 to entity connectionA4
+[EISArtifact_vehicle1] Registering vehicle1 to entity connectionA1
+[EISArtifact_vehicle2] Registering vehicle2 to entity connectionA2
+[vehicle1] Got role: Car
+[vehicle1] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle2] Got role: Drone
+[vehicle4] Got role: Truck
+[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle4] -------------------- BEGIN OF NEW ROUND ----------------
+[EISArtifact_vehicle3] Registering vehicle3 to entity connectionA3
+[vehicle2] Going for a job, items=[item(material3,2)]
+[vehicle3] Got role: Motorcycle
+[vehicle2] Doing skip for step 168
+[vehicle3] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle4] Going to shop: shop1 to buy tool: tool2
+[vehicle4] Doing goto(facility(shop1)) for step 168
+[vehicle3] Going to shop: shop1 to buy tool: tool1
+[vehicle3] Doing goto(facility(shop1)) for step 168
+[vehicle1] Going to shop: shop1 to buy tool: tool2
+[vehicle1] Doing goto(facility(shop1)) for step 168
+[vehicle3] Doing continue for step 169
+[vehicle2] Doing skip for step 169
+[vehicle1] Arrived at shop1
+[vehicle1] Buying tool: tool2
+[vehicle4] Doing continue for step 169
+[vehicle1] Doing buy(item(tool2),amount(1)) for step 169
+[vehicle3] Doing continue for step 170
+[vehicle2] Doing skip for step 170
+[vehicle4] Doing continue for step 170
+[vehicle1] Buying tool: tool1
+[vehicle1] Doing buy(item(tool1),amount(1)) for step 170
+[vehicle3] Doing continue for step 171
+[vehicle2] Doing skip for step 171
+[vehicle4] Doing continue for step 171
+[vehicle1] Doing skip for step 171
+[vehicle3] Doing continue for step 172
+[vehicle4] Doing continue for step 172
+[vehicle2] Doing skip for step 172
+[vehicle1] Doing skip for step 172
+[vehicle3] Doing continue for step 173
+[vehicle4] Doing continue for step 173
+[vehicle2] Doing skip for step 173
+[vehicle1] Doing skip for step 173
+[vehicle3] Doing continue for step 174
+[vehicle1] Doing skip for step 174
+[vehicle2] Doing skip for step 174
+[vehicle4] Doing continue for step 174
+[vehicle3] Doing continue for step 175
+[vehicle4] Doing continue for step 175
+[vehicle2] Doing skip for step 175
+[vehicle1] Doing skip for step 175
+[vehicle2] Doing skip for step 176
+[vehicle1] Doing skip for step 176
+[vehicle3] Arrived at shop1
+[vehicle4] Doing continue for step 176
+[vehicle3] Buying tool: tool1
+[vehicle3] Doing buy(item(tool1),amount(1)) for step 176
+[vehicle1] Doing skip for step 177
+[vehicle3] Doing skip for step 177
+[vehicle4] Doing continue for step 177
+[vehicle2] Doing skip for step 177
+[vehicle4] Doing continue for step 178
+[vehicle3] Doing skip for step 178
+[vehicle2] Doing skip for step 178
+[vehicle1] Doing skip for step 178
+[vehicle3] Doing skip for step 179
+[vehicle4] Doing continue for step 179
+[vehicle2] Doing skip for step 179
+[vehicle1] Doing skip for step 179
+[vehicle3] Doing skip for step 180
+[vehicle4] Doing continue for step 180
+[vehicle2] Doing skip for step 180
+[vehicle1] Doing skip for step 180
+[vehicle1] Doing skip for step 181
+[vehicle3] Doing skip for step 181
+[vehicle4] Doing continue for step 181
+[vehicle2] Doing skip for step 181
+[vehicle4] Start new reasoning cycle
+[vehicle4] Added event +step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b9_54"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b9_54"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle4] I finished!
+[vehicle2] Start new reasoning cycle
+[vehicle2] Added event +step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b7_53"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b7_53"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle2] Added event -step(181), events = [+step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b7_53"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], -step(181)]
+[vehicle2] I finished!
+[vehicle3] Start new reasoning cycle
+[vehicle3] Added event +step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b8_57"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b8_57"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle3] I finished!
+[vehicle1] Start new reasoning cycle
+[vehicle1] Added event +step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b6_58"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(182)[artifact_id(cobj_1),obs_prop_id("obs_id_default-feee6b70-110d-4c34-81e5-d62000a9a71b6_58"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle1] I finished!
