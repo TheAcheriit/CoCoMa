@@ -26,5 +26,41 @@
 	!goto(Shop);
 	.
 
++!select_goal
+	: required_item(Item,Nb) &
+	  find_shop(Item,Shop) &
+	  inFacility(Facility)
+<-
+	.print("Buying item: ",Item);
+	!buy(Item,Nb);
+	-required_item(Item,Nb)
+	.
+	
++!select_goal
+	: required_item(Item,Nb) &
+	  find_shop(Item,Shop)
+<-
+	.print("Going to shop: ",Shop," to buy item: ",Item);
+	!goto(Shop);
+	.
+	
+
+	
++!select_goal
+	: location(Loc)
+<- 
+!goto(Loc);
+-location(Loc);
+print("Going to ",Loc).
+
++!select_goal
+	: have_to_product(Type,Nb) &
+	Nb > 0
+<-
+	-have_to_product(Type,Nb);
+	+have_to_product(Type,Nb-1);
+	!assemble(Type);
+	.print("assembling: ", Type).
+
 // the last option: just skip the step			
 +!select_goal <- !skip.

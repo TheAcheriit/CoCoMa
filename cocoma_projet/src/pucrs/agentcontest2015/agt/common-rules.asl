@@ -8,3 +8,8 @@ required_tool(T) :-
 find_shop(ItemId, ShopId) :-
 	shop(ShopId,_,_,Items) &
 	.member(item(ItemId,Price,Amount,_), Items).
+
+	
++have_to_product(Type,0)
+<-
+-have_to_product(Type,0).
