@@ -1,93 +1,38 @@
 [EISArtifact_vehicle2] Registering vehicle2 to entity connectionA2
 [EISArtifact_vehicle4] Registering vehicle4 to entity connectionA4
+[EISArtifact_vehicle1] Registering vehicle1 to entity connectionA1
 [EISArtifact_vehicle3] Registering vehicle3 to entity connectionA3
+[vehicle1] Got role: Car
+[vehicle2] Got role: Drone
+[vehicle1] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
 [vehicle4] Got role: Truck
+[vehicle2] drone.asl
+[vehicle1] car.asl
 [vehicle3] Got role: Motorcycle
 [vehicle4] -------------------- BEGIN OF NEW ROUND ----------------
-[vehicle2] Got role: Drone
 [vehicle4] truck.asl
-[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
-[vehicle2] drone.asl
 [vehicle3] -------------------- BEGIN OF NEW ROUND ----------------
 [vehicle3] motorcycle.asl
-[EISArtifact_vehicle1] Registering vehicle1 to entity connectionA1
-[vehicle4] Doing skip for step 52
-[vehicle3] Doing skip for step 52
+[vehicle1] Doing skip for step 283
 [vehicle2] Going for a job, items=[item(material3,2)]
-[vehicle1] Got role: Car
-[vehicle2] Doing skip for step 52
-[vehicle1] -------------------- BEGIN OF NEW ROUND ----------------
-[vehicle1] car.asl
-[vehicle1] Doing skip for step 52
-[vehicle4] Doing skip for step 53
-[vehicle3] Doing skip for step 53
-[vehicle2] Doing skip for step 53
-[vehicle1] Doing skip for step 53
-[vehicle2] Doing skip for step 54
-[vehicle3] Doing skip for step 54
-[vehicle1] Doing skip for step 54
-[vehicle4] Doing skip for step 54
-[vehicle4] Doing skip for step 55
-[vehicle2] Doing skip for step 55
-[vehicle3] Doing skip for step 55
-[vehicle1] Doing skip for step 55
-[vehicle4] Doing skip for step 56
-[vehicle2] Doing skip for step 56
-[vehicle3] Doing skip for step 56
-[vehicle1] Doing skip for step 56
-[vehicle4] Doing skip for step 57
-[vehicle2] Doing skip for step 57
-[vehicle3] Doing skip for step 57
-[vehicle1] Doing skip for step 57
-[vehicle4] Doing skip for step 58
-[vehicle2] Doing skip for step 58
-[vehicle3] Doing skip for step 58
-[vehicle1] Doing skip for step 58
-[vehicle4] Doing skip for step 59
-[vehicle2] Doing skip for step 59
-[vehicle3] Doing skip for step 59
-[vehicle1] Doing skip for step 59
-[vehicle4] Doing skip for step 60
-[vehicle3] Doing skip for step 60
-[vehicle2] Doing skip for step 60
-[vehicle1] Doing skip for step 60
-[vehicle4] Doing skip for step 61
-[vehicle3] Doing skip for step 61
-[vehicle2] Doing skip for step 61
-[vehicle1] Doing skip for step 61
-[vehicle4] Doing skip for step 62
-[vehicle3] Doing skip for step 62
-[vehicle2] Doing skip for step 62
-[vehicle1] Doing skip for step 62
-[vehicle4] Doing skip for step 63
-[vehicle3] Doing skip for step 63
-[vehicle2] Doing skip for step 63
-[vehicle1] Doing skip for step 63
-[vehicle4] Doing skip for step 64
-[vehicle3] Doing skip for step 64
-[vehicle2] Doing skip for step 64
-[vehicle1] Doing skip for step 64
-[vehicle4] Doing skip for step 65
-[vehicle3] Doing skip for step 65
-[vehicle2] Doing skip for step 65
-[vehicle1] Doing skip for step 65
-[vehicle4] Doing skip for step 66
-[vehicle3] Doing skip for step 66
-[vehicle1] Doing skip for step 66
-[vehicle2] Doing skip for step 66
-[vehicle4] Doing skip for step 67
-[vehicle3] Doing skip for step 67
-[vehicle2] Doing skip for step 67
-[vehicle1] Doing skip for step 67
-[vehicle4] Doing skip for step 68
-[vehicle2] Doing skip for step 68
-[vehicle1] Doing skip for step 68
-[vehicle3] Doing skip for step 68
-[vehicle4] Doing skip for step 69
-[vehicle3] Doing skip for step 69
-[vehicle2] Doing skip for step 69
-[vehicle1] Doing skip for step 69
-[vehicle4] Doing skip for step 70
-[vehicle3] Doing skip for step 70
-[vehicle2] Doing skip for step 70
-[vehicle1] Doing skip for step 70
+[vehicle4] Doing skip for step 283
+[vehicle2] item(material3,2)
+[vehicle2] Doing skip for step 283
+[vehicle3] Doing skip for step 283
+[vehicle1] Doing skip for step 284
+[vehicle2] Doing skip for step 284
+[vehicle4] Doing skip for step 284
+[vehicle3] Doing skip for step 284
+[vehicle1] Doing skip for step 285
+[vehicle2] Doing skip for step 285
+[vehicle4] Doing skip for step 285
+[vehicle3] Doing skip for step 285
+[vehicle1] Doing skip for step 286
+[vehicle2] Doing skip for step 286
+[vehicle4] Doing skip for step 286
+[vehicle3] Doing skip for step 286
+[vehicle1] Doing skip for step 287
+[vehicle2] Doing skip for step 287
+[vehicle3] Doing skip for step 287
+[vehicle4] Doing skip for step 287

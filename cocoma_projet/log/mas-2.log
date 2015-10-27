@@ -1,4 +1,86 @@
-[vehicle1] as2j: parsing error:[C:/Users/Corentin/workspace/base-mas-pc-pucrs-2015/src/pucrs/agentcontest2015/agt/vehicle.asl:29] Expected ';' after '.print(FileExt)'.
-[vehicle2] as2j: parsing error:[C:/Users/Corentin/workspace/base-mas-pc-pucrs-2015/src/pucrs/agentcontest2015/agt/vehicle.asl:29] Expected ';' after '.print(FileExt)'.
-[vehicle3] as2j: parsing error:[C:/Users/Corentin/workspace/base-mas-pc-pucrs-2015/src/pucrs/agentcontest2015/agt/vehicle.asl:29] Expected ';' after '.print(FileExt)'.
-[vehicle4] as2j: parsing error:[C:/Users/Corentin/workspace/base-mas-pc-pucrs-2015/src/pucrs/agentcontest2015/agt/vehicle.asl:29] Expected ';' after '.print(FileExt)'.
+[EISArtifact_vehicle1] Registering vehicle1 to entity connectionA1
+[EISArtifact_vehicle4] Registering vehicle4 to entity connectionA4
+[EISArtifact_vehicle3] Registering vehicle3 to entity connectionA3
+[EISArtifact_vehicle2] Registering vehicle2 to entity connectionA2
+[vehicle1] Got role: Car
+[vehicle2] Got role: Drone
+[vehicle1] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle3] Got role: Motorcycle
+[vehicle1] car.asl
+[vehicle4] Got role: Truck
+[vehicle3] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle3] motorcycle.asl
+[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle2] drone.asl
+[vehicle4] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle4] truck.asl
+[vehicle1] Doing skip for step 184
+[vehicle3] Doing skip for step 184
+[vehicle4] Doing skip for step 184
+[vehicle2] Going for a job, items=[item(material3,2)]
+[vehicle2] Doing skip for step 184
+[vehicle1] Doing skip for step 185
+[vehicle2] Doing skip for step 185
+[vehicle3] Doing skip for step 185
+[vehicle4] Doing skip for step 185
+[vehicle3] Doing skip for step 186
+[vehicle2] Doing skip for step 186
+[vehicle1] Doing skip for step 186
+[vehicle4] Doing skip for step 186
+[vehicle1] Doing skip for step 187
+[vehicle2] Doing skip for step 187
+[vehicle3] Doing skip for step 187
+[vehicle4] Doing skip for step 187
+[vehicle1] Doing skip for step 188
+[vehicle2] Doing skip for step 188
+[vehicle3] Doing skip for step 188
+[vehicle4] Doing skip for step 188
+[vehicle1] Doing skip for step 189
+[vehicle3] Doing skip for step 189
+[vehicle4] Doing skip for step 189
+[vehicle2] Doing skip for step 189
+[vehicle3] Doing skip for step 190
+[vehicle2] Doing skip for step 190
+[vehicle1] Doing skip for step 190
+[vehicle4] Doing skip for step 190
+[vehicle3] Doing skip for step 191
+[vehicle1] Doing skip for step 191
+[vehicle2] Doing skip for step 191
+[vehicle4] Doing skip for step 191
+[vehicle3] Doing skip for step 192
+[vehicle2] Doing skip for step 192
+[vehicle1] Doing skip for step 192
+[vehicle4] Doing skip for step 192
+[vehicle1] Doing skip for step 193
+[vehicle3] Doing skip for step 193
+[vehicle2] Doing skip for step 193
+[vehicle4] Doing skip for step 193
+[vehicle1] Doing skip for step 194
+[vehicle2] Doing skip for step 194
+[vehicle3] Doing skip for step 194
+[vehicle4] Doing skip for step 194
+[vehicle2] Doing skip for step 195
+[vehicle3] Doing skip for step 195
+[vehicle1] Doing skip for step 195
+[vehicle4] Doing skip for step 195
+[vehicle3] Doing skip for step 196
+[vehicle1] Doing skip for step 196
+[vehicle2] Doing skip for step 196
+[vehicle4] Doing skip for step 196
+[vehicle2] Doing skip for step 197
+[vehicle3] Doing skip for step 197
+[vehicle4] Doing skip for step 197
+[vehicle1] Doing skip for step 197
+[vehicle4] Start new reasoning cycle
+[vehicle4] Added event +step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece9_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece9_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle4] I finished!
+[vehicle2] Start new reasoning cycle
+[vehicle2] Added event +step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece7_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece7_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle2] Added event -step(197), events = [+step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece7_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], -step(197)]
+[vehicle2] I finished!
+[vehicle3] Start new reasoning cycle
+[vehicle3] Added event +step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece8_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece8_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle3] I finished!
+[vehicle1] Start new reasoning cycle
+[vehicle1] Added event +step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece6_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(198)[artifact_id(cobj_1),obs_prop_id("obs_id_default-9f600dcf-e801-4bed-833c-58c14f68bece6_35"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
+[vehicle1] I finished!

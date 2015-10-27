@@ -9,7 +9,9 @@
 
 +!commit_to_job(JobId,Items) 
 <- .print("Going for a job, items=",Items);
-   .wait({+forever}); // forever, so that the intention remains
+   for(.member(I,Items)){
+   	.print(I);
+   	+need(I);
+   }
    .
-   
    

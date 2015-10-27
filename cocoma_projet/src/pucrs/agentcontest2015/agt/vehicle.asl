@@ -3,6 +3,8 @@
 { include("common-plans.asl") }
 { include("common-select-goal.asl") }
 
+
+
 // register this agent into the MAPC server (simulator) using a personal interface artifact
 +!register_EIS(E)
 <-  

@@ -1,74 +1,208 @@
 [EISArtifact_vehicle3] Registering vehicle3 to entity connectionA3
-[EISArtifact_vehicle2] Registering vehicle2 to entity connectionA2
+[EISArtifact_vehicle4] Registering vehicle4 to entity connectionA4
 [EISArtifact_vehicle1] Registering vehicle1 to entity connectionA1
+[EISArtifact_vehicle2] Registering vehicle2 to entity connectionA2
+[vehicle4] Got role: Truck
+[vehicle4] -------------------- BEGIN OF NEW ROUND ----------------
 [vehicle3] Got role: Motorcycle
-[vehicle2] Got role: Drone
-[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
-[vehicle2] drone.asl
+[vehicle4] truck.asl
 [vehicle1] Got role: Car
+[vehicle2] Got role: Drone
 [vehicle3] -------------------- BEGIN OF NEW ROUND ----------------
 [vehicle3] motorcycle.asl
 [vehicle1] -------------------- BEGIN OF NEW ROUND ----------------
 [vehicle1] car.asl
-[EISArtifact_vehicle4] Registering vehicle4 to entity connectionA4
-[vehicle3] Going to shop: shop2 to buy tool: tool1
-[vehicle3] Doing goto(facility(shop2)) for step 6
-[vehicle4] Got role: Truck
-[vehicle2] Going to shop: shop2 to buy tool: tool1
-[vehicle2] Doing goto(facility(shop2)) for step 6
-[vehicle4] -------------------- BEGIN OF NEW ROUND ----------------
-[vehicle4] truck.asl
-[vehicle1] Going to shop: shop2 to buy tool: tool2
-[vehicle1] Doing goto(facility(shop2)) for step 6
-[vehicle3] Doing continue for step 7
-[vehicle2] Doing continue for step 7
-[vehicle1] Doing continue for step 7
-[vehicle4] Going to shop: shop2 to buy tool: tool2
-[vehicle4] Doing goto(facility(shop2)) for step 7
-[vehicle4] Doing continue for step 8
-[vehicle3] Doing continue for step 8
-[vehicle2] Doing continue for step 8
-[vehicle1] Doing continue for step 8
-[vehicle2] Doing continue for step 9
-[vehicle1] Doing continue for step 9
-[vehicle3] Doing continue for step 9
-[vehicle4] Doing continue for step 9
-[vehicle1] Doing continue for step 10
-[vehicle3] Doing continue for step 10
-[vehicle2] Doing continue for step 10
-[vehicle4] Doing continue for step 10
-[vehicle1] Doing continue for step 11
-[vehicle2] Doing continue for step 11
-[vehicle3] Doing continue for step 11
-[vehicle4] Doing continue for step 11
-[vehicle1] Doing continue for step 12
-[vehicle3] Doing continue for step 12
-[vehicle2] Doing continue for step 12
-[vehicle4] Doing continue for step 12
-[vehicle1] Doing continue for step 13
-[vehicle3] Doing continue for step 13
-[vehicle2] Doing continue for step 13
-[vehicle4] Doing continue for step 13
-[vehicle1] Doing continue for step 14
-[vehicle3] Doing continue for step 14
-[vehicle2] Doing continue for step 14
-[vehicle4] Doing continue for step 14
-[vehicle1] Doing continue for step 15
-[vehicle3] Doing continue for step 15
-[vehicle2] Doing continue for step 15
-[vehicle4] Doing continue for step 15
-[vehicle3] Doing continue for step 16
-[vehicle1] Doing continue for step 16
-[vehicle2] Doing continue for step 16
-[vehicle4] Start new reasoning cycle
-[vehicle4] Added event +step(16)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc29_43"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(16)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc29_43"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle4"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
-[vehicle4] I finished!
-[vehicle2] Start new reasoning cycle
-[vehicle2] Added event +step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc27_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc27_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle2"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
-[vehicle2] I finished!
-[vehicle3] Start new reasoning cycle
-[vehicle3] Added event +step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc26_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc26_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle3"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
-[vehicle3] I finished!
-[vehicle1] Start new reasoning cycle
-[vehicle1] Added event +step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc28_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)], events = [+step(17)[artifact_id(cobj_1),obs_prop_id("obs_id_default-2f98eef0-f9c6-4aec-8515-304f7486ecc28_47"),percept_type("obs_prop"),source(percept),artifact_name(cobj_1,"perso_art_vehicle1"),artifact_type(cobj_1,"pucrs.agentcontest2015.env.EISArtifact"),workspace(cobj_1,"default",cobj_0)]]
-[vehicle1] I finished!
+[vehicle2] -------------------- BEGIN OF NEW ROUND ----------------
+[vehicle2] drone.asl
+[vehicle4] Doing skip for step 212
+[vehicle3] Doing skip for step 212
+[vehicle1] Doing skip for step 212
+[vehicle2] Going for a job, items=[item(material3,2)]
+[vehicle2] Doing skip for step 212
+[vehicle3] Doing skip for step 213
+[vehicle4] Doing skip for step 213
+[vehicle1] Doing skip for step 213
+[vehicle2] Doing skip for step 213
+[vehicle3] Doing skip for step 214
+[vehicle4] Doing skip for step 214
+[vehicle1] Doing skip for step 214
+[vehicle2] Doing skip for step 214
+[vehicle3] Doing skip for step 215
+[vehicle4] Doing skip for step 215
+[vehicle1] Doing skip for step 215
+[vehicle2] Doing skip for step 215
+[vehicle3] Doing skip for step 216
+[vehicle4] Doing skip for step 216
+[vehicle1] Doing skip for step 216
+[vehicle2] Doing skip for step 216
+[vehicle3] Doing skip for step 217
+[vehicle4] Doing skip for step 217
+[vehicle1] Doing skip for step 217
+[vehicle2] Doing skip for step 217
+[vehicle4] Doing skip for step 218
+[vehicle3] Doing skip for step 218
+[vehicle1] Doing skip for step 218
+[vehicle2] Doing skip for step 218
+[vehicle3] Doing skip for step 219
+[vehicle4] Doing skip for step 219
+[vehicle1] Doing skip for step 219
+[vehicle2] Doing skip for step 219
+[vehicle3] Doing skip for step 220
+[vehicle4] Doing skip for step 220
+[vehicle1] Doing skip for step 220
+[vehicle2] Doing skip for step 220
+[vehicle4] Doing skip for step 221
+[vehicle3] Doing skip for step 221
+[vehicle1] Doing skip for step 221
+[vehicle2] Doing skip for step 221
+[vehicle3] Doing skip for step 222
+[vehicle4] Doing skip for step 222
+[vehicle1] Doing skip for step 222
+[vehicle2] Doing skip for step 222
+[vehicle3] Doing skip for step 223
+[vehicle4] Doing skip for step 223
+[vehicle1] Doing skip for step 223
+[vehicle2] Doing skip for step 223
+[vehicle3] Doing skip for step 224
+[vehicle4] Doing skip for step 224
+[vehicle1] Doing skip for step 224
+[vehicle2] Doing skip for step 224
+[vehicle3] Doing skip for step 225
+[vehicle4] Doing skip for step 225
+[vehicle1] Doing skip for step 225
+[vehicle2] Doing skip for step 225
+[vehicle3] Doing skip for step 226
+[vehicle4] Doing skip for step 226
+[vehicle1] Doing skip for step 226
+[vehicle2] Doing skip for step 226
+[vehicle4] Doing skip for step 227
+[vehicle3] Doing skip for step 227
+[vehicle1] Doing skip for step 227
+[vehicle2] Doing skip for step 227
+[vehicle3] Doing skip for step 242
+[vehicle4] Doing skip for step 242
+[vehicle1] Doing skip for step 242
+[vehicle1] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle4] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle1] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle2] Doing skip for step 242
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle3] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle2] Doing skip for step 249
+[vehicle1] Doing skip for step 250
+[vehicle4] Doing skip for step 250
+[vehicle2] Doing skip for step 250
+[vehicle3] Doing skip for step 250
+[vehicle1] Doing skip for step 251
+[vehicle4] Doing skip for step 251
+[vehicle2] Doing skip for step 251
+[vehicle3] Doing skip for step 251
+[vehicle1] Doing skip for step 252
+[vehicle4] Doing skip for step 252
+[vehicle2] Doing skip for step 252
+[vehicle3] Doing skip for step 252
+[vehicle1] Doing skip for step 253
+[vehicle4] Doing skip for step 253
+[vehicle2] Doing skip for step 253
+[vehicle3] Doing skip for step 253
+[vehicle1] Doing skip for step 254
+[vehicle4] Doing skip for step 254
+[vehicle2] Doing skip for step 254
+[vehicle3] Doing skip for step 254
+[vehicle1] Doing skip for step 255
+[vehicle4] Doing skip for step 255
+[vehicle2] Doing skip for step 255
+[vehicle3] Doing skip for step 255
+[vehicle1] Doing skip for step 256
+[vehicle4] Doing skip for step 256
+[vehicle2] Doing skip for step 256
+[vehicle3] Doing skip for step 256
+[vehicle1] Doing skip for step 257
+[vehicle4] Doing skip for step 257
+[vehicle2] Doing skip for step 257
+[vehicle3] Doing skip for step 257
+[vehicle1] Doing skip for step 258
+[vehicle4] Doing skip for step 258
+[vehicle2] Doing skip for step 258
+[vehicle3] Doing skip for step 258
+[vehicle1] Doing skip for step 259
+[vehicle4] Doing skip for step 259
+[vehicle2] Doing skip for step 259
