@@ -43,7 +43,7 @@ Documentation:
 
 To understand the JaCaMo team:
 
-- scanario1.jcm: the agents of the project
+- scenario1.jcm: the agents of the project
 - vehicle.asl: the main source code for the agents (see comments in the file)
 - common-plans.asl: the main plans (to start deciding a what to do in a step)
 - common-select-goal.asl: select the action for the current situation
