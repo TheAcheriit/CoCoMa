@@ -22,14 +22,10 @@ Rafael H. Bordini
 Follow the steps below to run it:
 
 - import this folder as a java project in Eclipse, (option import existing project)
-
 - in eclipse, open src/util/StartSercer.java and execute it
-
 - open src/util/StartTeams.java and execute
-
 - in the eclipse console, select the StartServer console and press ENTER to start the simulation
   (in the terminal execution -- see below --, it is easier to press the ENTER in the right place) 
-
 - optionally, open and run src/util/StartMonitor.java
 
 It is also possible to run the simulation using the Ant script (file build.xml), 
