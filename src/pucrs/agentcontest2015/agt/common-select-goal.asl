@@ -53,12 +53,17 @@
 	  not inFacility(Loc)
 <- 
 !goto(Loc);
--location(Loc);
 print("Going to ",Loc).
 
+
+//hard coded, faire une version générique
 +!select_goal
-	: have_to_product(Type,Nb) &
-	Nb > 0
+	: have_to_product(material1,Nb) &
+	Nb > 0 &
+	inFacility(workshop1) &
+	item(base1,Nb2) &
+	item(tool1,1) &
+	Nb2 >= 5 
 <-
 	-have_to_product(Type,Nb);
 	+have_to_product(Type,Nb-1);
