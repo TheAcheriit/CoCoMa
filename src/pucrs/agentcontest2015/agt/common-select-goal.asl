@@ -28,6 +28,7 @@
 
 +!select_goal
 	: required_item(Item,Nb) &
+	  not item(Item, Nb) &
 	  find_shop(Item,Shop) &
 	  inFacility(Facility)
 <-
@@ -38,6 +39,7 @@
 	
 +!select_goal
 	: required_item(Item,Nb) &
+	  not item(Item, Nb) &
 	  find_shop(Item,Shop)
 <-
 	.print("Going to shop: ",Shop," to buy item: ",Item);
@@ -47,7 +49,8 @@
 
 	
 +!select_goal
-	: location(Loc)
+	: location(Loc) &
+	  not inFacility(Loc)
 <- 
 !goto(Loc);
 -location(Loc);

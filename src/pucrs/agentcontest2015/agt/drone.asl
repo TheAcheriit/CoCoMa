@@ -43,33 +43,39 @@
 
 +need(material3,Nb)
 <- +need(material1,Nb*2).
-		
-+need(material1,Nb):
-	not item(base1,_)
-	<-
-	+required_item(base1,Nb*5)
+
++need(material1, Nb) :
+	Nb > 1
+<- 
+	.broadcast(tell,need(material1,Nb))     //TODO changer pour un message direct
 	.
 	
-+need(material1,Nb):
-	item(base1,Nb2) &
-	Nb*5 > Nb2
+	
++need(material1,1):
+	not item(base1,_)
 	<-
-	+required_item(base1,Nb*5-Nb2)
+	+required_item(base1,5)
+	.
+	
++need(material1,1):
+	item(base1,Nb) &
+	5 > Nb2
+	<-
+	+required_item(base1,5-Nb)
 	.
 
-+need(material1,Nb):
-	item(base1,Nb*5) &
++need(material1,1):
+	item(base1,5) &
 	item(tool1,1)
 	<-
 	+location(workshop1)
 
 .
 
-+need(material1,Nb):
-	item(base1,Nb*5) &
++need(material1,1):
+	item(base1,5) &
 	item(tool1,1) &
 	inFacility(workshop1)
 <-
-+have_to_product(material1,Nb)
-
++have_to_product(material1,1)
 .
