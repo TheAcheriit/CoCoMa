@@ -15,7 +15,7 @@
    	+need(Type,Nb,Storage);
    }
    .
-   
+    
 /* +need(Type, Nb)
 	: product(Type,_,Liste) &
 	not Liste == []
@@ -47,7 +47,7 @@
 <- +need(material1,Nb*2, none);
 	.broadcast(tell,need(material3,Nb,Storage)).
 
-+need(material1, Nb, Strorage) :
++need(material1, Nb, Storage) :
 	Nb > 1
 <- 
 	.broadcast(tell,need(material1,Nb,Storage))     //TODO changer pour un message direct

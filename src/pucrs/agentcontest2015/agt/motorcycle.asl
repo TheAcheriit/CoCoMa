@@ -35,7 +35,7 @@ have_to_product(tool3,1) :- not item(tool3,1).
 	+location(workshop1)
 .
 
-have_to_product(material1,Nb, _) :-
+have_to_product(material1,Nb) :-
 	inFacility(workshop1) &
 	need(material1,Nb,_) &
 	item(base1,Nb2) &
