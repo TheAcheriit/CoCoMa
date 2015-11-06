@@ -26,7 +26,7 @@
 +inFacility(F) : going(F)
 <-  .print("Arrived at ",F);
     -going(F);
-    +arrived
+    +arrived(F)
     .
     
 // Goto (option 2)

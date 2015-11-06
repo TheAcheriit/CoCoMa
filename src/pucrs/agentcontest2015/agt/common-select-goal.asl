@@ -28,7 +28,6 @@
 
 +!select_goal
 	: required_item(Item,Nb) &
-	  not item(Item, Nb) &
 	  find_shop(Item,Shop) &
 	  inFacility(Facility)
 <-
@@ -39,7 +38,6 @@
 	
 +!select_goal
 	: required_item(Item,Nb) &
-	  not item(Item, Nb) &
 	  find_shop(Item,Shop)
 <-
 	.print("Going to shop: ",Shop," to buy item: ",Item);
@@ -56,19 +54,29 @@
 print("Going to ",Loc).
 
 
-//hard coded, faire une version générique
 +!select_goal
-	: have_to_product(material1,Nb) &
+	: have_to_product(Type,Nb) &
 	Nb > 0 &
-	inFacility(workshop1) &
-	item(base1,Nb2) &
-	item(tool1,1) &
-	Nb2 >= 5 
+	inFacility(workshop1) 
 <-
 	-have_to_product(Type,Nb);
 	+have_to_product(Type,Nb-1);
 	!assemble(Type);
 	.print("assembling: ", Type).
+
+
+	  
+	
+//production a plusieurs
++!select_goal
+	: help(AgentId,Item,Nb) &
+	Nb > 0
+	<-
+	!assist_assemble(AgentId);
+	-help(AgentId,Item,Nb);
+	+help(AgentId,Item,Nb-1);
+	.print("assembling: ", Item,"with: ", AgentId)
+	.
 
 // the last option: just skip the step			
 +!select_goal <- !skip.

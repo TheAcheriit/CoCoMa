@@ -42,7 +42,8 @@
 	.
 
 +need(material3,Nb)
-<- +need(material1,Nb*2).
+<- +need(material1,Nb*2);
+	.broadcast(tell,need(material3,Nb)).
 
 +need(material1, Nb) :
 	Nb > 1
@@ -58,22 +59,26 @@
 	.
 	
 +need(material1,1):
-	item(base1,Nb) &
+	item(base1,Nb2) &
 	5 > Nb2
 	<-
-	+required_item(base1,5-Nb)
+	+required_item(base1,5-Nb2)
 	.
 
-+need(material1,1):
-	item(base1,5) &
++item(base1, Nb):
+	need(material1,1) &
+	Nb >= 5 &
 	item(tool1,1)
 	<-
 	+location(workshop1)
 
 .
 
-+need(material1,1):
-	item(base1,5) &
++location(worshop1):
+	inFacility(workshop1) &
+	need(material1,1) &
+	item(base1,Nb) &
+	Nb >= 5 &
 	item(tool1,1) &
 	inFacility(workshop1)
 <-

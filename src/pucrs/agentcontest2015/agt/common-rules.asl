@@ -13,3 +13,12 @@ find_shop(ItemId, ShopId) :-
 +have_to_product(Type,0)
 <-
 -have_to_product(Type,0).
+
++help_me(Item,Nb)[source(AgentId)]
+<-
+-help_me(Item,Nb);
++help(AgentId,Item,Nb).
+
++help(AgentId,Item,0)
+<-
+-help(AgentId,Item,0).
