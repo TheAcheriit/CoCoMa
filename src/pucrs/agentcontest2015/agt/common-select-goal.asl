@@ -78,5 +78,13 @@ print("Going to ",Loc).
 	.print("assembling: ", Item,"with: ", AgentId)
 	.
 
++!select_goal
+	: need(Item,Nb,S) &
+	item(Item,Nb) &
+	inFacility(S) &
+	job(JobId)
+	<-
+	!deliver_job(JobId).
+
 // the last option: just skip the step			
 +!select_goal <- !skip.

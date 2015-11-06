@@ -9,6 +9,10 @@ find_shop(ItemId, ShopId) :-
 	shop(ShopId,_,_,Items) &
 	.member(item(ItemId,Price,Amount,_), Items).
 
+location(L):- need(Item, Nb, L) &
+			  item(Item,Nb2) &
+			  Nb2>Nb &
+			  not inFacility(L).
 	
 +have_to_product(Type,0)
 <-
@@ -16,7 +20,7 @@ find_shop(ItemId, ShopId) :-
 
 +help_me(Item,Nb)[source(AgentId)]
 <-
--help_me(Item,Nb);
+-help_me(Item,Nb)[source(AgentId)];
 +help(AgentId,Item,Nb).
 
 +help(AgentId,Item,0)

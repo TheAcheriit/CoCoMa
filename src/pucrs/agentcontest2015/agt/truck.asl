@@ -2,27 +2,27 @@
 
 
 //si material 3 vas chercher les trucs lourds
-+need(material3,Nb)
++need(material3,Nb,_)
 <-
 	+required_item(base3,Nb);
 	+required_item(base2,Nb*2).
 	
 	
 +item(base3,Nb):
-	need(material3,Nb) &
+	need(material3,Nb,_) &
 	item(base2, Nb*2)
 <-
 	+location(workshop1).
 	
 +item(base2,Nb):
-	need(material3,Nb/2) &
+	need(material3,Nb/2,_) &
 	item(base3, Nb/2)
 <-
 	+location(workshop1).
 	
 	
 +arrived(workshop1):
-	need(material3, Nb)
+	need(material3, Nb,_)
 <-
 	.send("vehicle3",tell,help_me(material3,Nb));
 	+have_to_product(material3,Nb)
