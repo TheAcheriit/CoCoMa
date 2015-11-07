@@ -12,7 +12,7 @@
 <- .print("Going for a job, items=",Items);
 	.broadcast(tell,job(JobId));
    for(.member(item(Type,Nb),Items)){
-   	+need(Type,Nb,Storage);
+    	+need(Type,Nb,Storage);
    }
    .
     
@@ -56,14 +56,14 @@
 	
 +need(material1,1,_):
 	not item(base1,_)
-	<-
+<-
 	+required_item(base1,5)
 	.
 	
 +need(material1,1,_):
 	item(base1,Nb2) &
 	5 > Nb2
-	<-
+<-
 	+required_item(base1,5-Nb2)
 	.
 
@@ -71,10 +71,9 @@
 	need(material1,1,_) &
 	Nb >= 5 &
 	item(tool1,1)
-	<-
+<-
 	+location(workshop1)
-
-.
+    .
 
 +location(worshop1):
 	inFacility(workshop1) &
@@ -84,5 +83,5 @@
 	item(tool1,1) &
 	inFacility(workshop1)
 <-
-+have_to_product(material1,1)
-.
+    +have_to_product(material1,1)
+    .

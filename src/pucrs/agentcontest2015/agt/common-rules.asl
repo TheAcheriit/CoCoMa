@@ -16,13 +16,16 @@ location(L):- need(Item, Nb, L) &
 	
 +have_to_product(Type,0)
 <-
--have_to_product(Type,0).
+    -have_to_product(Type,0)
+    .
 
 +help_me(Item,Nb)[source(AgentId)]
 <-
--help_me(Item,Nb)[source(AgentId)];
-+help(AgentId,Item,Nb).
+    -help_me(Item,Nb)[source(AgentId)];
+    +help(AgentId,Item,Nb)
+    .
 
 +help(AgentId,Item,0)
 <-
--help(AgentId,Item,0).
+    -help(AgentId,Item,0)
+    .

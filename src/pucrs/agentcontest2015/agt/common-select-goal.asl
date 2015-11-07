@@ -43,15 +43,15 @@
 	.print("Going to shop: ",Shop," to buy item: ",Item);
 	!goto(Shop);
 	.
-	
 
 	
 +!select_goal
 	: location(Loc) &
 	  not inFacility(Loc)
 <- 
-!goto(Loc);
-print("Going to ",Loc).
+    !goto(Loc);
+    print("Going to ",Loc)
+    .
 
 
 +!select_goal
@@ -64,14 +64,13 @@ print("Going to ",Loc).
 	!assemble(Type);
 	.print("assembling: ", Type).
 
-
 	  
 	
 //production a plusieurs
 +!select_goal
 	: help(AgentId,Item,Nb) &
 	Nb > 0
-	<-
+<-
 	!assist_assemble(AgentId);
 	-help(AgentId,Item,Nb);
 	+help(AgentId,Item,Nb-1);
@@ -83,8 +82,9 @@ print("Going to ",Loc).
 	item(Item,Nb) &
 	inFacility(S) &
 	job(JobId)
-	<-
+<-
 	!deliver_job(JobId).
+
 
 // the last option: just skip the step			
 +!select_goal <- !skip.

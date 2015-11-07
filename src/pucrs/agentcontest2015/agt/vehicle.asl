@@ -12,7 +12,8 @@
     .concat("perso_art_",Me,AName);
     makeArtifact(AName,"pucrs.agentcontest2015.env.EISArtifact",[],AId);
     focus(AId);
-    registerEISEntity(E). 
+    registerEISEntity(E)
+    . 
 
 +!register_freeconn
 <-	
