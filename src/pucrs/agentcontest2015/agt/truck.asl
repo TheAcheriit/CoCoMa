@@ -25,5 +25,6 @@
 	need(material3, Nb,_)
 <-
 	.send("vehicle3",tell,help_me(material3,Nb));
+	.send("vehicle2",tell,help_me(material3,Nb));
 	+have_to_product(material3,Nb)
 .

@@ -7,20 +7,6 @@ required_item(base1,8):-
 	
 have_to_product(tool3,1) :- not item(tool3,1).
 
-/* +need(material1,Nb):
-	not item(base1,_) &
-	Nb < 5
-	<-
-	+required_item(base1,Nb*5);
-	.
-	
-+need(material1,Nb):
-	item(base1,Nb2) &
-	Nb < 5 &
-	5 * Nb > Nb2
-	<-
-	+required_item(base1,5*Nb-Nb2);
-	./**/
 	
 +need(material1,Nb,_)
 <-

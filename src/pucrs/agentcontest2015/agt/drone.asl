@@ -7,6 +7,8 @@
    : not .desire( commit_to_job(_,_) ) // to avoid committing to two jobs 
 <- !commit_to_job(JobId,Items).
 
+
+
 +!commit_to_job(JobId,Items) :
 	pricedJob(JobId,Storage,Begin,End,Reward,Items)
 <- .print("Going for a job, items=",Items);
@@ -16,41 +18,17 @@
    }
    .
     
-/* +need(Type, Nb)
-	: product(Type,_,Liste) &
-	not Liste == []
-<-
-	for(.member(consumed(Type1,Nb1),Liste)){
-		+need(Type1,Nb1*Nb);
-	}
-	for(.member(tools(Type2,Nb2),Liste)){
-		+need(Type2,Nb2);
-	}
-	.*/
 
-+item(Type, Nb)
-	: need(Type, Nb2) &
-	Nb == Nb2
-<-
-	-need(Type,Nb2)
-	.
-	
-+item(Type, Nb)
-	: need(Type, Nb2) &
-	Nb < Nb2
-<-
-	-need(Type,Nb2);
-	+need(Type,Nb2-Nb)
-	.
 
 +need(material3,Nb,Storage)
 <- +need(material1,Nb*2, none);
-	.broadcast(tell,need(material3,Nb,Storage)).
+	.broadcast(tell,need(material3,Nb,Storage));
+	+location(workshop1).
 
 +need(material1, Nb, Storage) :
 	Nb > 1
 <- 
-	.broadcast(tell,need(material1,Nb,Storage))     //TODO changer pour un message direct
+	.send(vehicle3,tell,need(material1,Nb,Storage))   
 	.
 	
 	

@@ -26,6 +26,7 @@
 	!goto(Shop);
 	.
 
+//acheter item
 +!select_goal
 	: required_item(Item,Nb) &
 	  find_shop(Item,Shop) &
@@ -44,7 +45,7 @@
 	!goto(Shop);
 	.
 
-	
+//aller a un endroit
 +!select_goal
 	: location(Loc) &
 	  not inFacility(Loc)
@@ -53,7 +54,7 @@
     print("Going to ",Loc)
     .
 
-
+//production
 +!select_goal
 	: have_to_product(Type,Nb) &
 	Nb > 0 &
@@ -66,7 +67,7 @@
 
 	  
 	
-//production a plusieurs
+//production à plusieurs
 +!select_goal
 	: help(AgentId,Item,Nb) &
 	Nb > 0
@@ -74,9 +75,10 @@
 	!assist_assemble(AgentId);
 	-help(AgentId,Item,Nb);
 	+help(AgentId,Item,Nb-1);
-	.print("assembling: ", Item,"with: ", AgentId)
+	.print("assembling: ", Item," with: ", AgentId)
 	.
 
+//delivrer job
 +!select_goal
 	: need(Item,Nb,S) &
 	item(Item,Nb) &
